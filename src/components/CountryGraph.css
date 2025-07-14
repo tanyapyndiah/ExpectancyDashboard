@@ -1,0 +1,82 @@
+.countryGraph-cont{
+    min-height: 65vh;
+    width: 57vw;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto',sans-serif;
+}
+
+.select-country-cont{
+    font-size: 1.5rem;
+    font-weight: 400;
+    /* height: 20%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#country{
+    font-family: "Share Tech Mono", monospace;
+    height: 3rem;
+    font-size: 1.2rem;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.country-option-cont{
+    padding: 1rem;
+    background-color: #E0E0D2;
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.line-graph-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.line-graph-cont{
+    width: 70%;
+    background-color: #313131;
+    height: 100%;
+    padding: 1rem;
+    padding-left: 0;
+}
+
+.country-name{
+    font-family: "Share Tech Mono", monospace;
+    font-size: 2.2rem;
+}
+
+.line-descr{
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+@media (max-width: 792px) {
+    .countryGraph-cont{
+        width: 100%;
+    }
+    .line-graph-cont{
+        height: 70vh;
+    }
+
+    .country-option-cont{
+        height: 70vh;
+    }
+
+    .line-descr{
+        font-size: 1rem;
+    }
+    .country-name{
+        font-size: 1.5rem;
+    }
+
+    #country{
+        font-size: 1rem;
+    }
+}

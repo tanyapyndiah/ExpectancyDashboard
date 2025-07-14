@@ -1,0 +1,48 @@
+.bar-chart-cont{
+    height: 65vh;
+    width: 37vw;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto',sans-serif;
+    color: white;
+}
+
+.year-option-cont{
+    background-color: #72A08B;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.bar-chart-cont{
+    background-color: #313131;
+    padding-top: 1rem;
+}
+
+#year{
+    height: 40%;
+    width: 60%;
+    padding: 1rem;
+    padding-right: 0.2rem;
+    font-size: 1.5rem;
+    font-family: "Share Tech Mono", monospace;
+    background-color: #72A08B;
+    color: white;
+    border: 2px solid white;
+}
+
+.select-year-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10%;
+}
+
+@media (max-width: 792px) {
+    .bar-chart-cont{
+        height: 70vh;
+        width: 100%;
+    }
+}
