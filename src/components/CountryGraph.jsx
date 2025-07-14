@@ -1,5 +1,5 @@
 import { useState,useEffect } from 'react'
-import './countryGraph.css'
+import './CountryGraph.css'
 import {data} from '../data'
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
